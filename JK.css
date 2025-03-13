@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+header {
+    padding: 30px;
+    background-color: #fff3db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+
+}
+
+header h1 {
+    color: black;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+.div-ul ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-ul li {
+    list-style: none;
+}
+
+.div-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.sect01 {
+    padding: 200px;
+    background-image: url(imagens/home-1682300_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect01 button {
+    width: 180px;
+    height: 50px;
+    background-color: #c84648;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.sect02{
+    padding: 200px;
+    background-color: #e7e4d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.div01{
+width: 300px;
+height: 450px;
+background-color: #703e3b;
+
+}
+.div02{
+    width: 300px;
+    height: 450px;
+    background-color: #703e3b;
+}
+.div03{
+    width: 300px;
+    height: 450px;
+    background-color: #703e3b;
+}
+
+
+
+.sect03{
+    padding: 200px;
+    background-color: #d3c8b4;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sect03 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+}
