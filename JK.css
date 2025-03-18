@@ -159,6 +159,7 @@ font-size: 10x;
     color: black;
     line-height: 20px;
 
+
 }
 
 .div03 img{
@@ -204,11 +205,13 @@ font-weight: 500;
 }
 
 .sect04 p {
+    padding: 20px;
     background-color: #fff3db ;
     font-size: 20px;
     color: black;
     font-family: "Nunito", sans-serif;;
 font-weight: 500;
+border-radius: 15px;
 }
 
 .map {
