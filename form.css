@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    /*Scrool Suave nas transições*/
+    font-family: "Nunito", sans-serif;
+
+}
+
+
+
+
+
+
+
+.forms {
+    padding: 100px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px;
+    gap: 100px;
+
+}
+
+.input-email{
+    color: white;
+}
+
+
+
+.input-submit {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+
+}
