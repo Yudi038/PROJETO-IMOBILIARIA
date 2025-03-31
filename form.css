@@ -13,18 +13,26 @@
 
 
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
 }
 
+
+.img-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .div-forms {
     padding: 30px;
-    height: 500px;
-    width: 800px;
-    background-color: #0ab9d4;/*AZUL PRINCIPAL*/
+    height: 490px;
+    width: 380px;
+    background-color: #0ab9d4;
+    /*AZUL PRINCIPAL*/
     border-radius: 10px;
 
 
@@ -37,7 +45,8 @@ form {
 }
 
 
-.label {
+label {
+    color: #ffffff;
     margin-bottom: 5px;
     /*margem inferior*/
     font-weight: bold;
@@ -52,40 +61,139 @@ form {
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid black;
+    width: 350px;
+    color: black;
 }
 
- .btn-form{
-background-color: #d8d8c0;
-padding: 10px;/*Espaçamento interno*/
-width: 700px;/**/
-height: 40px;
-border-radius: 15px;/*arredondamento de borda*/
-border: none;/*retirar borda*/
-font-size: 12px;
-cursor: pointer;
+.btn-form {
+    background-color: #d8d8c0;
+    padding: 10px;
+    /*Espaçamento interno*/
+    width: 370px;
+    /**/
+    height: 40px;
+    border-radius: 5px;
+    /*arredondamento de borda*/
+    border: none;
+    /*retirar borda*/
+    font-size: 12px;
+    cursor: pointer;
 }
 
-.btn-form:hover{
-background-color: #ffffff;
-transition: 0.9s;
+.btn-form:hover {
+    background-color: #ffffff;
+    transition: 0.9s;
 
 
 }
 
 
-h2, p {
+h2,
+p {
     color: white;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    text-align: center;
 }
 
 .input-email {
     color: white;
 }
 
+/**/
+
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+
+.div-forms2 {
+    padding: 30px;
+    height: 450px;
+    width: 380px;
+    background-color: #0ab9d4;
+    /*AZUL PRINCIPAL*/
+    border-radius: 10px;
+}
+
+.formlt-02 {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 350px;
+
+}
+
+.bttn-02 {
+    background-color: #d8d8c0;
+    padding: 10px;
+    /*Espaçamento interno*/
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    /*arredondamento de borda*/
+    border: none;
+    /*retirar borda*/
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.bttn-02:hover {
+    background-color: white;
+    transition: 0.8;
+}
 
 
 
 
+/**/
+
+.div-forms3 {
+    padding: 30px;
+    height: 450px;
+    width: 380px;
+    background-color: #0ab9d4;
+    /*AZUL PRINCIPAL*/
+    border-radius: 10px;
+
+}
+
+.formlt-03 {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 350px;
+}
+
+.bttn-03{
+
+    background-color: #d8d8c0;
+    padding: 10px;/*Espaçamento interno*/
+    width: 370px;
+    height: 40px;
+    border-radius: 5px; /*arredondamento de borda*/
+    border: none;/*retirar borda*/
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bttn-03:hover {
+    background-color: white;
+    transition: 0.8;
+}
