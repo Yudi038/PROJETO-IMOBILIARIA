@@ -110,51 +110,57 @@ background-color: navy;
     gap: 20px;
 }
 
-.div01 {
+.caixa01 {
     width: 300px;
     height: 450px;
     background-color:white;
     text-align: center;
     line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
    
     
 }
-.div01 h2{
+.caixa01 h2{
     color: black;
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.div01 p{
+.caixa01 p{
     color: black;
     font-size: 15px;
     font-weight: normal;
     line-height: 23px;
 }
 
-.div01 img{
-    width: 70px;
-    height: 70px;
+.caixa01 img{
+    width: 300px;
+    height: 300px;
     
 }
 
 
-.div02 {
+.caixa02 {
     width: 300px;
     height: 450px;
     background-color: white;
     text-align: center;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
-.div02 h2{
+.caixa02 h2{
     color: black;
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
 }
 
-.div02 p{
+.caixa02 p{
 
     color: black;
     font-size: 21px;
@@ -162,48 +168,46 @@ background-color: navy;
    
 }
 
-.div02 img{
-    width: 70px;
-    height: 70px;
+.caixa02 img{
+    width: 300px;
+    height: 330px;
 }
 
-.div02 ul li {
-list-style: none;
-color: black;
-font-size: 10x;
-}
 
-.div03 {
+.caixa03 {
     width: 300px;
     height: 450px;
     background-color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.div03 h2{
+.caixa03 h2{
     color: black;
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
 }
 
-.div03 p{
+.caixa03 p{
     color: black;
     font-size: 15px;
     font-weight: normal;
     line-height: 20px;
 }
 
-.div03 ul li {
+.caixa03 ul li {
     color: black;
     line-height: 20px;
 
 
 }
 
-.div03 img{
-    width: 90px;
-    height: 90px;
+.caixa03 img{
+    width: 300px;
+    height: 400px;
 
 }
 
